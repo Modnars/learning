@@ -9,9 +9,10 @@
 import recommonmark
 from recommonmark.transform import AutoStructify
 
-project = 'Swift 编程语言'
+project = '现代 C++'
 copyright = '2023, modnarshen'
 author = 'modnarshen'
+release = ''
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -28,3 +29,15 @@ language = 'zh_CN'
 
 html_theme = 'furo'
 html_static_path = ['_static']
+
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+        # 'url_resolver': lambda url: github_doc_root + url,
+        'auto_toc_tree_section': 'Contents',
+        'enable_math': False,
+        'enable_inline_math': False,
+        'enable_eval_rst': True,
+        # 'enable_auto_doc_ref': True,
+    }, True)
+    app.add_transform(AutoStructify)
+
