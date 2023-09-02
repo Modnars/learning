@@ -13,9 +13,12 @@ jobs:
           pip install sphinx furo recommonmark
       - name: Sphinx build
         run: |
+          sphinx-build llvm _build/llvm
           sphinx-build swift-book _build/swift-book
+          sphinx-build modern-cxx _build/modern-cxx
           sphinx-build microeconomics _build/microeconomics
           sphinx-build macroeconomics _build/macroeconomics
+          sphinx-build INDEX _build
       - name: Custom build
         run: |
           cp .raw/* _build/
