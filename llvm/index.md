@@ -1,9 +1,11 @@
-# Welcome to LLVM's documentation!
+# LLVM
 
 ```eval_rst
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   appendix/index
+    :maxdepth: 2
+    :caption: Contents:
+    
+    introduction/index
+    tutorial/index
+    appendix/index
 ```
