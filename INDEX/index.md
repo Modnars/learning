@@ -2,7 +2,7 @@
 
 ## 目录
 
-欢迎访问 `learning.modoo.zone`！以下是目前 `learning` 包含的主题文档。
+欢迎访问 **learning.modoo.zone**！以下是目前 **learning** 包含的主题文档。
 
 ---
 
@@ -43,4 +43,4 @@
 
 ## 声明
 
-版权声明：`learning.modoo.zone` 采用[知识共享署名-非商业性使用 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc/4.0/)进行许可
+版权声明：**learning.modoo.zone** 采用[知识共享署名-非商业性使用 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc/4.0/)进行许可
