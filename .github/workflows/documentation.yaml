@@ -14,7 +14,6 @@ jobs:
       - name: Sphinx build
         run: |
           sphinx-build llvm _build/llvm
-          sphinx-build csapp _build/csapp
           sphinx-build swift-book _build/swift-book
           sphinx-build modern-cxx _build/modern-cxx
           sphinx-build microeconomics _build/microeconomics
