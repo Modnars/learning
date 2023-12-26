@@ -1,5 +1,5 @@
 module.exports = {
-    title : 'CSAPP',
+    title : '深入理解计算机系统',
     author : 'Modnar Shen',
     lang : 'zh-cn',
     description : '深入理解计算机系统',

@@ -1,6 +1,6 @@
 # Summary
 
-* [Hello](README.md)
+* [前言](README.md)
 * [概述](Intro/index.md)
     * [第 1 章 计算机系统漫游](Intro/Ch01.md)
 * [第一部分 程序结构和执行](Part01/index.md)
@@ -17,4 +17,6 @@
     * [第 10 章 系统级 I/O](Part03/Ch10.md)
     * [第 11 章 网络编程](Part03/Ch11.md)
     * [第 12 章 并发编程](Part03/Ch12.md)
+* [其他](Others/index.md)
+    * [补充](Others/Appendix.md)
 
