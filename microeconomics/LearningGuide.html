@@ -1,0 +1,371 @@
+<!doctype html>
+<html class="no-js" lang="zh-CN" data-content_root="./">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="索引" href="genindex.html" /><link rel="search" title="搜索" href="search.html" /><link rel="next" title="第 1 篇 导言" href="Part01/index.html" /><link rel="prev" title="经济学原理 微观经济学分册" href="index.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
+        <title>学习指南图 - 微观经济学 文档</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">微观经济学  文档</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  
+  <span class="sidebar-brand-text">微观经济学  文档</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="搜索" name="q" aria-label="搜索">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">学习指南图</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Part01/index.html">第 1 篇 导言</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of 第 1 篇 导言</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="Part01/Ch01.html">第 1 章 经济学十大原理</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Part01/Ch02.html">第 2 章 像经济学家一样思考</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Part01/Ch03.html">第 3 章 相互依存性与贸易的好处</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Part02/index.html">第 2 篇 市场如何运行</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of 第 2 篇 市场如何运行</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="Part02/Ch04.html">第 4 章 供给与需求的市场力量</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Part02/Ch05.html">第 5 章 弹性及其应用</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Part02/Ch06.html">第 6 章 供给、需求与政府政策</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Part03/index.html">第 3 篇 市场和福利</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of 第 3 篇 市场和福利</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="Part03/Ch07.html">第 7 章 消费者、生产者与市场效率</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Part03/Ch08.html">第 8 章 应用：赋税的代价</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Part03/Ch09.html">第 9 章 应用：国际贸易</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Part04/index.html">第 4 篇 公共部门经济学</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of 第 4 篇 公共部门经济学</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="Part04/Ch10.html">第 10 章 外部性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Part04/Ch11.html">第 11 章 公共物品和公共资源</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Part04/Ch12.html">第 12 章 税制的设计</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Part05/index.html">第 5 篇 企业行为与产业组织</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of 第 5 篇 企业行为与产业组织</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="Part05/Ch13.html">第 13 章 生产成本</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Part05/Ch14.html">第 14 章 竞争市场上的企业</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Part05/Ch15.html">第 15 章 垄断</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Part05/Ch16.html">第 16 章 垄断竞争</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Part05/Ch17.html">第 17 章 寡头</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Part06/index.html">第 6 篇 劳动市场经济学</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of 第 6 篇 劳动市场经济学</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="Part06/Ch18.html">第 18 章 生产要素市场</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Part06/Ch19.html">第 19 章 收入与歧视</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Part06/Ch20.html">第 20 章 收入不平等与贫困</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Part07/index.html">第 7 篇 深入研究的论题</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle navigation of 第 7 篇 深入研究的论题</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="Part07/Ch21.html">第 21 章 消费者选择理论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Part07/Ch22.html">第 22 章 微观经济学前沿</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="id1">
+<h1>学习指南图<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td colspan="2"><p><strong>第 1 篇 导言</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>第 1 章 经济学十大原理</p></td>
+<td><p>少数几个重要思想指导着经济学的研究。</p></td>
+</tr>
+<tr class="row-odd"><td><p>第 2 章 像经济学家一样思考</p></td>
+<td><p>经济学家既可以作为科学家来观察世界，也可以作为决策者来观察世界。</p></td>
+</tr>
+<tr class="row-even"><td><p>第 3 章 相互依存性与贸易的好处</p></td>
+<td><p>比较优势理论解释了人们如何从经济上的相互依存性中获益。</p></td>
+</tr>
+<tr class="row-odd"><td colspan="2"><p><strong>第 2 篇 市场如何运行</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>第 4 章 供给与需求的市场力量</p></td>
+<td rowspan="2"><p>经济如何协调独立的经济主体？通过供求的市场力量。</p></td>
+</tr>
+<tr class="row-odd"><td><p>第 5 章 弹性及其应用</p></td>
+</tr>
+<tr class="row-even"><td><p>第 6 章 供给、需求与政府政策</p></td>
+<td><p>用供求的工具来考察各种政府政策的效应。</p></td>
+</tr>
+<tr class="row-odd"><td colspan="2"><p><strong>第 3 篇 市场和福利</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>第 7 章 消费者、生产者与市场效率</p></td>
+<td rowspan="3"><p>为什么供求均衡对整个社会是合意的？消费者和生产者剩余的概念解释了市场的效率、赋税的代价，以及国际贸易的收益。</p></td>
+</tr>
+<tr class="row-odd"><td><p>第 8 章 应用：赋税的代价</p></td>
+</tr>
+<tr class="row-even"><td><p>第 9 章 应用：国际贸易</p></td>
+</tr>
+<tr class="row-odd"><td colspan="2"><p><strong>第 4 篇 公共部门经济学</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>第 10 章 外部性</p></td>
+<td rowspan="2"><p>市场结果并不总是有效率的，政府有时可以弥补市场失灵。</p></td>
+</tr>
+<tr class="row-odd"><td><p>第 11 章 公共物品和公共资源</p></td>
+</tr>
+<tr class="row-even"><td><p>第 12 章 税制的设计</p></td>
+<td><p>为了给政府的各种计划提供资金，政府通过其税制筹集收入，设计税制要关注效率与平等的平衡。</p></td>
+</tr>
+<tr class="row-odd"><td colspan="2"><p><strong>第 5 篇 企业行为与产业组织</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>第 13 章 生产成本</p></td>
+<td rowspan="2"><p>企业理论阐明了竞争市场供给背后的决策。</p></td>
+</tr>
+<tr class="row-odd"><td><p>第 14 章 竞争市场上的企业</p></td>
+</tr>
+<tr class="row-even"><td><p>第 15 章 垄断</p></td>
+<td rowspan="3"><p>有市场势力的企业会使市场结果无效率。</p></td>
+</tr>
+<tr class="row-odd"><td><p>第 16 章 垄断竞争</p></td>
+</tr>
+<tr class="row-even"><td><p>第 17 章 寡头</p></td>
+</tr>
+<tr class="row-odd"><td colspan="2"><p><strong>第 6 篇 劳动市场经济学</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>第 18 章 生产要素市场</p></td>
+<td rowspan="3"><p>这几章考察了劳动市场的特点，大多数人在劳动市场上赚到了自己的大部分收入。</p></td>
+</tr>
+<tr class="row-odd"><td><p>第 19 章 收入与歧视</p></td>
+</tr>
+<tr class="row-even"><td><p>第 20 章 收入不平等与贫困</p></td>
+</tr>
+<tr class="row-odd"><td colspan="2"><p><strong>第 7 篇 深入研究的论题</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>第 21 章 消费者选择理论</p></td>
+<td rowspan="2"><p>微观经济学中增加的论题包括家庭决策、不对称信息、政治经济学以及行为经济学。</p></td>
+</tr>
+<tr class="row-odd"><td><p>第 22 章 微观经济学前沿</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="Part01/index.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">第 1 篇 导言</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="index.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Home</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023, modnarshen
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=7d86a446"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=32e29ea5"></script>
+    <script src="_static/translations.js?v=beaddf03"></script>
+    </body>
+</html>

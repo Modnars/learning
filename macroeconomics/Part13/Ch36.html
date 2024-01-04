@@ -1,0 +1,410 @@
+<!doctype html>
+<html class="no-js" lang="zh-CN" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="索引" href="../genindex.html" /><link rel="search" title="搜索" href="../search.html" /><link rel="prev" title="第 13 篇 最后的思考" href="index.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
+        <title>第 36 章 宏观经济政策的六个争论问题 - 宏观经济学 文档</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">宏观经济学  文档</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">宏观经济学  文档</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="搜索" name="q" aria-label="搜索">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../LearningGuide.html">学习指南图</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Part08/index.html">第 8 篇 宏观经济学的数据</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of 第 8 篇 宏观经济学的数据</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Part08/Ch23.html">第 23 章 一国收入的衡量</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Part08/Ch24.html">第 24 章 生活费用的衡量</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Part09/index.html">第 9 篇 长期中的真实经济</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of 第 9 篇 长期中的真实经济</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Part09/Ch25.html">第 25 章 生产与增长</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Part09/Ch26.html">第 26 章 储蓄、投资和金融体系</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Part09/Ch27.html">第 27 章 金融学的基本工具</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Part09/Ch28.html">第 28 章 失业</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Part10/index.html">第 10 篇 长期中的货币与物价</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of 第 10 篇 长期中的货币与物价</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Part10/Ch29.html">第 29 章 货币制度</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Part10/Ch30.html">第 30 章 货币增长与通货膨胀</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Part11/index.html">第 11 篇 开放经济的宏观经济学</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of 第 11 篇 开放经济的宏观经济学</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Part11/Ch31.html">第 31 章 开放经济的宏观经济学：基本概念</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Part11/Ch32.html">第 32 章 开放经济的宏观经济理论</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Part12/index.html">第 12 篇 短期经济波动</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of 第 12 篇 短期经济波动</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Part12/Ch33.html">第 33 章 总需求与总供给</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Part12/Ch34.html">第 34 章 货币政策和财政政策对总需求的影响</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Part12/Ch35.html">第 35 章 通货膨胀与失业之间的短期权衡取舍</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">第 13 篇 最后的思考</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of 第 13 篇 最后的思考</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">第 36 章 宏观经济政策的六个争论问题</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="id1">
+<h1>第 36 章 宏观经济政策的六个争论问题<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
+<section id="id2">
+<h2>36.1 货币政策与财政政策决策者应该试图稳定经济吗<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
+<section id="id3">
+<h3>36.1.1 正方：决策者应该试图稳定经济<a class="headerlink" href="#id3" title="Link to this heading">#</a></h3>
+</section>
+<section id="id4">
+<h3>36.1.2 反方：决策者不应该试图稳定经济<a class="headerlink" href="#id4" title="Link to this heading">#</a></h3>
+<div class="admonition- admonition">
+<p class="admonition-title">新闻摘录</p>
+<p><strong>美联储还要把零利率维持多久</strong></p>
+</div>
+</section>
+</section>
+<section id="id5">
+<h2>36.2 政府反衰退应该增加支出还是减税<a class="headerlink" href="#id5" title="Link to this heading">#</a></h2>
+<section id="id6">
+<h3>36.2.1 正方：政府应该增加支出来反衰退<a class="headerlink" href="#id6" title="Link to this heading">#</a></h3>
+</section>
+<section id="id7">
+<h3>36.2.2 反方：政府应该减税来反衰退<a class="headerlink" href="#id7" title="Link to this heading">#</a></h3>
+</section>
+</section>
+<section id="id8">
+<h2>36.3 货币政策应该按规则制定还是相机抉择<a class="headerlink" href="#id8" title="Link to this heading">#</a></h2>
+<section id="id9">
+<h3>36.3.1 正方：货币政策应该按规则制定<a class="headerlink" href="#id9" title="Link to this heading">#</a></h3>
+<div class="admonition- admonition">
+<p class="admonition-title">参考资料</p>
+<p><strong>通货膨胀目标化</strong></p>
+</div>
+</section>
+<section id="id10">
+<h3>36.3.2 反方：货币政策不应该按规则制定<a class="headerlink" href="#id10" title="Link to this heading">#</a></h3>
+</section>
+</section>
+<section id="id11">
+<h2>36.4 中央银行应该把零通货膨胀作为目标吗<a class="headerlink" href="#id11" title="Link to this heading">#</a></h2>
+<section id="id12">
+<h3>36.4.1 正方：中央银行应该把零通货膨胀作为目标<a class="headerlink" href="#id12" title="Link to this heading">#</a></h3>
+</section>
+<section id="id13">
+<h3>36.4.2 反方：中央银行不应该把零通货膨胀作为目标<a class="headerlink" href="#id13" title="Link to this heading">#</a></h3>
+<div class="admonition- admonition">
+<p class="admonition-title">新闻摘录</p>
+<p><strong>最优通货膨胀率是多少</strong></p>
+</div>
+</section>
+</section>
+<section id="id14">
+<h2>36.5 政府应该平衡其预算吗<a class="headerlink" href="#id14" title="Link to this heading">#</a></h2>
+<section id="id15">
+<h3>36.5.1 正方：政府应该平衡其预算<a class="headerlink" href="#id15" title="Link to this heading">#</a></h3>
+</section>
+<section id="id16">
+<h3>36.5.2 反方：政府不应该平衡其预算<a class="headerlink" href="#id16" title="Link to this heading">#</a></h3>
+<div class="admonition- admonition">
+<p class="admonition-title">新闻摘录</p>
+<p><strong>美国的财政危机会是什么样</strong></p>
+</div>
+</section>
+</section>
+<section id="id17">
+<h2>36.6 应该为了鼓励储蓄而修改税法吗<a class="headerlink" href="#id17" title="Link to this heading">#</a></h2>
+<section id="id18">
+<h3>36.6.1 正方：应该为了鼓励储蓄而修改税法<a class="headerlink" href="#id18" title="Link to this heading">#</a></h3>
+</section>
+<section id="id19">
+<h3>36.6.2 反方：不应该为了鼓励储蓄而修改税法<a class="headerlink" href="#id19" title="Link to this heading">#</a></h3>
+</section>
+</section>
+<section id="id20">
+<h2>36.7 结论<a class="headerlink" href="#id20" title="Link to this heading">#</a></h2>
+</section>
+<section id="id21">
+<h2>内容提要<a class="headerlink" href="#id21" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>积极货币政策与财政政策的支特者认为，经济本质上是不稳定的，并相信政府可以管理总需求，以抵消内在的不稳定性。积极货币政策与财政政策的批评者强调，政策对经济的影响存在时滞，而且我们预期未来经济状况的能力是很差的，因此稳定经济的努力可能以使经济不稳定而告终。</p></li>
+<li><p>增加政府支出以应对衰退的支持者认为，由于减少的税收可能被用于储蓄而不是支出，因此直接的政府支出能更多地增加总需求，这是促进生产和就业的关键。增加政府支出的批评者认为，减税既可以扩大总需求又可以扩大总供给，而且政府支出迅速增加会引起浪费性的公共项目产生。</p></li>
+<li><p>货币政策规则的支持者认为，相机抉择的政策会饱受能力不足、滥用权力和政策前后不一致性之苦。货币政策规则的批评者认为，相机抉择的政策在对变化着的经济环境做出反应时较为灵活。</p></li>
+<li><p>零通货膨胀目标的支持者强调，通货膨胀有许多成本，而且即使有好处也很少。此外，消除通货膨胀的代价——压低产量和就业——只是暂时的。如果中央银行宣布一项可信的降低通货膨账的计划，从而直接降低通货膨胀预期，那么甚至连这种代价也可以减少。零通货膨胀目标的批评者认为，温和的通货膨胀给社会只带来很小的成本，而降低通货膨账所必需的衰退则代价高昂。批评者也指出了几种缓和的通货膨胀可以有助于经济的方法。</p></li>
+<li><p>平衡政府预算的支持者认为，预算赤宇通过增加子孙后代的税收并减少他们的收入而把不公正的负担加在他们身上。平衡政府预算的批评者认为。赤字只是财政政策的一小部分。只关心预算赤字会忽略诸多方面，包括各种支出计划在内的财政政策能够影响几代人的利益。</p></li>
+<li><p>税收激励储蓄观点的支持者指出，我们的社会用许多方法抑制储蓄，例如对资本收益征收重税和减少那些积累了财富的人享有的补助。他们支特修改税法以鼓励储蓄，比如把所得税改为消费税。税收激励储蓄观点的批评者认为，许多刺激储蓄的变动主要是使富人安益，而这些富人并不需要减税。他们还认为，这种变化对私人储蓄只有微小的影响。通过降低政府预算赤字来增加公共储蓄可以提供更直接、更平等地增加国民储蓄的方法。</p></li>
+</ul>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          <a class="prev-page" href="index.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">第 13 篇 最后的思考</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023, modnarshen
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">第 36 章 宏观经济政策的六个争论问题</a><ul>
+<li><a class="reference internal" href="#id2">36.1 货币政策与财政政策决策者应该试图稳定经济吗</a><ul>
+<li><a class="reference internal" href="#id3">36.1.1 正方：决策者应该试图稳定经济</a></li>
+<li><a class="reference internal" href="#id4">36.1.2 反方：决策者不应该试图稳定经济</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id5">36.2 政府反衰退应该增加支出还是减税</a><ul>
+<li><a class="reference internal" href="#id6">36.2.1 正方：政府应该增加支出来反衰退</a></li>
+<li><a class="reference internal" href="#id7">36.2.2 反方：政府应该减税来反衰退</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id8">36.3 货币政策应该按规则制定还是相机抉择</a><ul>
+<li><a class="reference internal" href="#id9">36.3.1 正方：货币政策应该按规则制定</a></li>
+<li><a class="reference internal" href="#id10">36.3.2 反方：货币政策不应该按规则制定</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id11">36.4 中央银行应该把零通货膨胀作为目标吗</a><ul>
+<li><a class="reference internal" href="#id12">36.4.1 正方：中央银行应该把零通货膨胀作为目标</a></li>
+<li><a class="reference internal" href="#id13">36.4.2 反方：中央银行不应该把零通货膨胀作为目标</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id14">36.5 政府应该平衡其预算吗</a><ul>
+<li><a class="reference internal" href="#id15">36.5.1 正方：政府应该平衡其预算</a></li>
+<li><a class="reference internal" href="#id16">36.5.2 反方：政府不应该平衡其预算</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id17">36.6 应该为了鼓励储蓄而修改税法吗</a><ul>
+<li><a class="reference internal" href="#id18">36.6.1 正方：应该为了鼓励储蓄而修改税法</a></li>
+<li><a class="reference internal" href="#id19">36.6.2 反方：不应该为了鼓励储蓄而修改税法</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id20">36.7 结论</a></li>
+<li><a class="reference internal" href="#id21">内容提要</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=7d86a446"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=32e29ea5"></script>
+    <script src="../_static/translations.js?v=beaddf03"></script>
+    </body>
+</html>

@@ -1,0 +1,454 @@
+<!doctype html>
+<html class="no-js" lang="zh-CN" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="索引" href="../genindex.html" /><link rel="search" title="搜索" href="../search.html" /><link rel="next" title="第 30 章 货币增长与通货膨胀" href="Ch30.html" /><link rel="prev" title="第 10 篇 长期中的货币与物价" href="index.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
+        <title>第 29 章 货币制度 - 宏观经济学 文档</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">宏观经济学  文档</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">宏观经济学  文档</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="搜索" name="q" aria-label="搜索">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../LearningGuide.html">学习指南图</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Part08/index.html">第 8 篇 宏观经济学的数据</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of 第 8 篇 宏观经济学的数据</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Part08/Ch23.html">第 23 章 一国收入的衡量</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Part08/Ch24.html">第 24 章 生活费用的衡量</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Part09/index.html">第 9 篇 长期中的真实经济</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of 第 9 篇 长期中的真实经济</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Part09/Ch25.html">第 25 章 生产与增长</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Part09/Ch26.html">第 26 章 储蓄、投资和金融体系</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Part09/Ch27.html">第 27 章 金融学的基本工具</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Part09/Ch28.html">第 28 章 失业</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">第 10 篇 长期中的货币与物价</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of 第 10 篇 长期中的货币与物价</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">第 29 章 货币制度</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Ch30.html">第 30 章 货币增长与通货膨胀</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Part11/index.html">第 11 篇 开放经济的宏观经济学</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of 第 11 篇 开放经济的宏观经济学</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Part11/Ch31.html">第 31 章 开放经济的宏观经济学：基本概念</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Part11/Ch32.html">第 32 章 开放经济的宏观经济理论</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Part12/index.html">第 12 篇 短期经济波动</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of 第 12 篇 短期经济波动</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Part12/Ch33.html">第 33 章 总需求与总供给</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Part12/Ch34.html">第 34 章 货币政策和财政政策对总需求的影响</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Part12/Ch35.html">第 35 章 通货膨胀与失业之间的短期权衡取舍</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Part13/index.html">第 13 篇 最后的思考</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of 第 13 篇 最后的思考</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Part13/Ch36.html">第 36 章 宏观经济政策的六个争论问题</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="id1">
+<h1>第 29 章 货币制度<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
+<section id="id2">
+<h2>29.1 货币的含义<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
+<section id="id3">
+<h3>29.1.1 货币的职能<a class="headerlink" href="#id3" title="Link to this heading">#</a></h3>
+</section>
+<section id="id4">
+<h3>29.1.2 货币的种类<a class="headerlink" href="#id4" title="Link to this heading">#</a></h3>
+<div class="admonition- admonition">
+<p class="admonition-title">新闻摘录</p>
+<p><strong>为什么是黄金</strong></p>
+</div>
+</section>
+<section id="id5">
+<h3>29.1.3 美国经济中的货币<a class="headerlink" href="#id5" title="Link to this heading">#</a></h3>
+<div class="admonition- admonition">
+<p class="admonition-title">参考资料</p>
+<p><strong>为什么信用卡不是货币</strong></p>
+</div>
+<div class="admonition- admonition">
+<p class="admonition-title">案例研究</p>
+<p><strong>所有的通货都在哪里</strong></p>
+</div>
+</section>
+</section>
+<section id="id6">
+<h2>29.2 联邦储备体系<a class="headerlink" href="#id6" title="Link to this heading">#</a></h2>
+<section id="id7">
+<h3>29.2.1 美联储的结构<a class="headerlink" href="#id7" title="Link to this heading">#</a></h3>
+</section>
+<section id="id8">
+<h3>29.2.2 联邦公开市场委员会<a class="headerlink" href="#id8" title="Link to this heading">#</a></h3>
+</section>
+</section>
+<section id="id9">
+<h2>29.3 银行与货币供给<a class="headerlink" href="#id9" title="Link to this heading">#</a></h2>
+<section id="id10">
+<h3>29.3.1 百分之百准备金银行的简单情况<a class="headerlink" href="#id10" title="Link to this heading">#</a></h3>
+</section>
+<section id="id11">
+<h3>29.3.2 部分准备金银行的货币创造<a class="headerlink" href="#id11" title="Link to this heading">#</a></h3>
+</section>
+<section id="id12">
+<h3>29.3.3 货币乘数<a class="headerlink" href="#id12" title="Link to this heading">#</a></h3>
+</section>
+<section id="id13">
+<h3>29.3.4 银行资本、杠杆以及 2008——2009 年的金融危机<a class="headerlink" href="#id13" title="Link to this heading">#</a></h3>
+</section>
+</section>
+<section id="id14">
+<h2>29.4 美联储控制货币的工具<a class="headerlink" href="#id14" title="Link to this heading">#</a></h2>
+<section id="id15">
+<h3>29.4.1 美联储如何影响准备金量<a class="headerlink" href="#id15" title="Link to this heading">#</a></h3>
+</section>
+<section id="id16">
+<h3>29.4.2 美联储如何影响准备金率<a class="headerlink" href="#id16" title="Link to this heading">#</a></h3>
+</section>
+<section id="id17">
+<h3>29.4.3 控制货币供给中的问题<a class="headerlink" href="#id17" title="Link to this heading">#</a></h3>
+<div class="admonition- admonition">
+<p class="admonition-title">案例研究</p>
+<p><strong>银行挤兑和货币供给</strong></p>
+</div>
+<div class="admonition- admonition">
+<p class="admonition-title">新闻摘录</p>
+<p><strong>美联储工具箱上的伯南克</strong></p>
+</div>
+</section>
+<section id="id18">
+<h3>29.4.4 联邦基金利率<a class="headerlink" href="#id18" title="Link to this heading">#</a></h3>
+</section>
+</section>
+<section id="id19">
+<h2>29.5 结论<a class="headerlink" href="#id19" title="Link to this heading">#</a></h2>
+</section>
+<section id="id20">
+<h2>内容提要<a class="headerlink" href="#id20" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>货币</strong>这个词指人们经常用来购买物品与服务的资产。</p></li>
+<li><p>货币有三种职能：作为交换媒介，它提供用于进行交易的东西；作为计价单位，它提供记录价格和其他经济价值的方式；作为价值储藏手段，它提供把购买力从现在转移到未来的方式。</p></li>
+<li><p>像黄金这样的商品货币是有其内在价值的货币：即使它不作为货币也有其价值。像纸币这样的法定货币是没有内在价值的货币：如果它不作为货币就没有价值。</p></li>
+<li><p>在美国经济中，货币以通货和其他各类银行存款，例如支票帐户的形式存在。</p></li>
+<li><p>联邦储备局，即美国的中央银行，负责管理美国的货币体系。美联储主席每隔四年由总统任命并得到国会确认，他是联邦公开市场委员会的领导人。联邦公开市场委员会约每六周开一次会，考虑货币政策的变动。</p></li>
+<li><p>银行储户通过把他们的钱存到银行帐户向银行提供资源。这些存款是银行负债的一部份。银行所有者也为银行提供资源（称为银行资本）。由于杠杆作用（为投资而借入资金），银行资产价值较小的变动就会引起银行资本价值较大的变动。为了保护储户，银行监管者要求银行持有某一最低的资本量。</p></li>
+<li><p>美联储主要通过公开市场操作来控制货币供给：购买政府债券增加货币供给，出售政府债券减少货币供给。美联储还可以用其他工具来控制货币供给。美联储可以通过降低贴现率，增加它对银行的贷款，降低法定准备金，或者降低准备金利率，来扩大货币供给。也可以通过提高贴现率，减少它对银行的贷款，提高法定准备金，或者提高准备金利率，来减少货币供给。</p></li>
+<li><p>当个人在银行有存款货币，并且银行把一些存款贷出去时，经济中的货币量就增加了。由于银行体系能够以这种方式影响货币供给，所以美联储对货币供给的控制是不完全的。</p></li>
+<li><p>美联储近年来确定了选择联邦基金利率作为目标的货币政策，联邦基金利率是银行向另一家银行贷款的短期利率。当美联储要实现这个目标时，它会调整货币供给。</p></li>
+</ul>
+</section>
+<section id="id21">
+<h2>关键概念<a class="headerlink" href="#id21" title="Link to this heading">#</a></h2>
+<table class="hlist"><tr><td><ul class="simple">
+<li><p>货币</p></li>
+<li><p>交换媒介</p></li>
+<li><p>计价单位</p></li>
+<li><p>价值储藏</p></li>
+<li><p>流动性</p></li>
+<li><p>商品货币</p></li>
+</ul>
+</td><td><ul class="simple">
+<li><p>法定货币</p></li>
+<li><p>通货</p></li>
+<li><p>活期存款</p></li>
+<li><p>联邦储备（Fed）</p></li>
+<li><p>中央银行</p></li>
+<li><p>货币政策</p></li>
+</ul>
+</td><td><ul class="simple">
+<li><p>准备金</p></li>
+<li><p>部分准备金银行</p></li>
+<li><p>准备金率</p></li>
+<li><p>货币乘数</p></li>
+<li><p>银行资本</p></li>
+<li><p>杠杆</p></li>
+</ul>
+</td><td><ul class="simple">
+<li><p>杠杆率</p></li>
+<li><p>资本需要量</p></li>
+<li><p>公开市场操作</p></li>
+<li><p>贴现率</p></li>
+<li><p>法定准备金</p></li>
+<li><p>联邦基金利率</p></li>
+</ul>
+</td></tr></table>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="Ch30.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">第 30 章 货币增长与通货膨胀</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="index.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">第 10 篇 长期中的货币与物价</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023, modnarshen
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">第 29 章 货币制度</a><ul>
+<li><a class="reference internal" href="#id2">29.1 货币的含义</a><ul>
+<li><a class="reference internal" href="#id3">29.1.1 货币的职能</a></li>
+<li><a class="reference internal" href="#id4">29.1.2 货币的种类</a></li>
+<li><a class="reference internal" href="#id5">29.1.3 美国经济中的货币</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id6">29.2 联邦储备体系</a><ul>
+<li><a class="reference internal" href="#id7">29.2.1 美联储的结构</a></li>
+<li><a class="reference internal" href="#id8">29.2.2 联邦公开市场委员会</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id9">29.3 银行与货币供给</a><ul>
+<li><a class="reference internal" href="#id10">29.3.1 百分之百准备金银行的简单情况</a></li>
+<li><a class="reference internal" href="#id11">29.3.2 部分准备金银行的货币创造</a></li>
+<li><a class="reference internal" href="#id12">29.3.3 货币乘数</a></li>
+<li><a class="reference internal" href="#id13">29.3.4 银行资本、杠杆以及 2008——2009 年的金融危机</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id14">29.4 美联储控制货币的工具</a><ul>
+<li><a class="reference internal" href="#id15">29.4.1 美联储如何影响准备金量</a></li>
+<li><a class="reference internal" href="#id16">29.4.2 美联储如何影响准备金率</a></li>
+<li><a class="reference internal" href="#id17">29.4.3 控制货币供给中的问题</a></li>
+<li><a class="reference internal" href="#id18">29.4.4 联邦基金利率</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id19">29.5 结论</a></li>
+<li><a class="reference internal" href="#id20">内容提要</a></li>
+<li><a class="reference internal" href="#id21">关键概念</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=7d86a446"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=32e29ea5"></script>
+    <script src="../_static/translations.js?v=beaddf03"></script>
+    </body>
+</html>
